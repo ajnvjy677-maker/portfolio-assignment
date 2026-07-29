@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building a Personal Portfolio with a Contact Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>Arjun Vijay</h>
+            <nav style="font-size: 20px; padding: 20px;">
+                <a href="#About">About</a>
+                <a href="#Project">Project</a>
+                <a href="#contact">contect</a>
+            </nav>
+    </header>
+    <main>
+        <div style="margin: 20px;"> 
+            <section id="About">
+                <fieldset>
+                    <legend>About</legend>
+                    <img src="IMG_20241229_173835.jpg" alt="photo of Arjun Vijay" width="200">
+                    <p id="p1"> Hello! My name is Arjun Vijay.<br>
+                        I am a BCA student interested in Web Development,<br>
+                        Calisthenics, Trading, and Technology.<br>
+                        I enjoy learning programming and creating websites.</p>
+                </fieldset>
+            </section>
+            <section id="Project">
+                <h2>Project</h2>
+                <article id="a1">
+                    <h3>Portfolio Website</h3>
+                    <p id="p2"> A personal portfolio website built using HTML.</p>
+                    <a href="#">View Project</a>
+                </article>
+                <br>
+                <article>
+                    <h3>Student Management System</h3>
+                    <p>A simple project for managing student records.</p>
+                    <a href="#">View Project</a>
+                </article>
+                <br>
+                <article>
+                    <h3>Online Calculator</h3>
+                    <p> A basic calculator created for learning web development.</p>
+                    <a href="#">View Project</a>
+                </article>
+            </section>
+        </div>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form method="post">
+                <fieldset>
+                    <legend>Contact form</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                    <br><br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                    <br><br>
+                    <label for="Phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" pattern="[6-9][0-9]{9}" placeholder="enter your Number"
+                        required>
+                    <br><br>
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject" required><br><br>
+                    <br><br>
+                    <label for="Message">Message</label>
+                    <textarea id="Message" name="Message" rows="4" placeholder="Message" required></textarea>
+                    <br><br>
+                    <label for="Gender">Gender:</label>
+
+                    <input type="radio" id="male" name="Gender" value="male" />
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="Gender" value="female" />
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="Gender" value="other" />
+                    <label for="other">Other</label>
+                    <br><br>
+                    <label for="birthdate">Date of Birth</label>
+                    <input type="date" id="birthdate" name="birthdate" required />
+                    <br><br>
+                    <input type="submit" value="submit" />
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy;2026 Arjun Vijay</p>
+    </footer>
+</body>
+
+</html>
