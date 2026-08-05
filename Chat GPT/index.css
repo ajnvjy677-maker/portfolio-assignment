@@ -1,0 +1,43 @@
+.sidebar{
+    background-color: black;
+    width: 60px;
+    height: 800px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.new{
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 70px;
+}
+.search{
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.pinned{
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.recend{
+    width: 45px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+}
+.secend{
+    display: flex;
+    flex-direction: column;
+}
