@@ -8,10 +8,19 @@ img{
 input{
     display: flex;
     width: 500px;
-    height: 30px;
-    border-radius: 15px;
+    height: 40px;
+    background-color: rgb(183, 181, 181);
+    border: 0px;
+    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+input::placeholder{
+    font-size: 40px;
+    color: rgb(49, 49, 49);
+    position: relative;
+    top: 10px;
+    left: 8px;
 }
 .hai{
     display: flex;
@@ -23,5 +32,17 @@ input{
     padding-left: 40px;
 }
 .hai button{
+    width: 150px;
+    height: 35px;
+    
+    border: 0px;
+    background-color: rgb(183, 181, 181);
+    border-radius: 15px;
     padding: 5px 10px;
+}
+@media all and (max-width: 413px) {
+    input{
+        width: 350px;
+    }
+    
 }
