@@ -43,6 +43,20 @@ input::placeholder{
 @media all and (max-width: 413px) {
     input{
         width: 350px;
+        position: relative;
+        left: 15px;
+    }
+    img{
+        position: relative;
+        right: 10px;
+    }
+    .hai{
+        display: flex;
+        flex-direction: row;
+    }
+    .nn.button{
+        padding-bottom: 10px;
+        
     }
     
 }
