@@ -1,0 +1,37 @@
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: ;
+
+}
+
+nav {
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: s;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+main {
+    text-align: center;
+}
