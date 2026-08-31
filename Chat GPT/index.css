@@ -19,7 +19,7 @@ body{
 }
 .logo{
     width: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
 
 }
@@ -69,23 +69,39 @@ header{
     flex-direction: row;
 }
 header div{
-    color: aqua;
+    
     position: relative;
     left: 890px;
     display: flex;
     flex-direction: row;
 }
-header h1{
-    font-family: Arial, Helvetica, sans-serif;
+.fm{
     position: relative;
-    left: 30px;
+    left: 400px;
+
 }
-header h2{
+#d{
+    color: white;
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    left: 35px;
+}
+.f{
+    color: aqua;
+    height: 40px;
+    background-color: rgb(4, 4, 5);
+    border: 2px solid rgb(32, 32, 32);
+    padding: 5px 50px;
+    border-radius: 25px;
+    
+}
+.a{
+    color: aqua;
     margin: 0px;
     height: 20px;
     padding: 20px 0px;
     position: relative;
-    right:  50px;
+    right:  200px;
 }
 header img{
     margin-top: 10px;
