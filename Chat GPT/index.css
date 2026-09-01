@@ -68,17 +68,18 @@ header{
     display: flex;
     flex-direction: row;
 }
-header div{
-    
+.j{
     position: relative;
-    left: 890px;
+    left: 750px;
     display: flex;
     flex-direction: row;
 }
 .fm{
+    
     position: relative;
-    left: 400px;
-
+    left: 450px;
+    display: flex;
+    flex-direction: row;
 }
 #d{
     color: white;
@@ -101,7 +102,7 @@ header div{
     height: 20px;
     padding: 20px 0px;
     position: relative;
-    right:  200px;
+    right:  50px;
 }
 header img{
     margin-top: 10px;
@@ -154,4 +155,13 @@ main input{
     left: 30px;
     top: 3px;
 
+}
+.plus{
+    position: relative;
+    bottom: 47px;
+    left: 5px;
+    margin: 0;
+    width: 40px;
+    font-size: 40px;
+    color: rgb(167, 167, 167);
 }
