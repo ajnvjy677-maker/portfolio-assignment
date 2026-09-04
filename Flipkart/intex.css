@@ -2,4 +2,23 @@
     display: flex;
     justify-content: center;
     margin-top: 200px;
+    margin-bottom: 200px;
+}
+#nav1{
+    margin-left: 100px;
+    
+}
+#bb{
+    gap: 50px;
+}
+#bc{
+    background-color: white;
+}
+#head{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.grid{
+    gap: 30px;
 }
