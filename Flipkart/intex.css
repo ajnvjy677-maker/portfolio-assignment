@@ -1,24 +1,54 @@
-.center{
+body {
+    margin: 0;
+}
+
+.background {
+    position: relative;
+    top: 60px;
+    background-image: linear-gradient(to top, #0290f5, white);
+    height: 600px;
+    z-index: -1;
+    margin: 0;
+}
+.center {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    align-items: center;
+    position: relative;
+    bottom: 300px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
 }
-#nav1{
+#card1{
+    position: relative;
+    z-index: 10;
+    margin-top: -100px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#home{
     margin-left: 100px;
-    
+
 }
-#bb{
+
+#nav {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+#bb {
     gap: 50px;
 }
-#bc{
+#bc {
     background-color: white;
 }
-#head{
+
+#head {
     font-weight: bold;
     font-size: 25px;
     margin-left: 20px;
 }
-.grid{
-    gap: 30px;
-}
+
