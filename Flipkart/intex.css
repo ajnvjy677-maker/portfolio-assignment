@@ -48,4 +48,97 @@ body {
     font-size: 25px;
     margin-left: 20px;
 }
+.why {
+    width: 250px;
+    padding-left: 40px;
+}
 
+#add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.address {
+    display: flex;
+    flex-direction: row;
+}
+
+.address h6 {
+    margin-bottom: 0;
+}
+
+.address p {
+    margin-top: 0;
+}
+
+.ctr {
+    margin-top: 30px;
+}
+
+.o {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.fo{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#a{
+    margin-left: 20px;
+}
+#un{
+    position: relative;
+    left: 300px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.foo{
+    background-color: rgb(71, 71, 71);
+ color: white;
+}
+#d{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+}
+.in:hover{
+    color: aqua;
+    position: relative;
+    left: 10px;
+    
+}
+#g{
+    margin-bottom: 30px;
+}
+@media all and (max-width: 576px) {
+  .fo{
+    display: flex;
+    flex-direction: column;
+  }
+  #d{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+  }
+  #un{
+    position: relative;
+    left: 0;
+  }
+}
