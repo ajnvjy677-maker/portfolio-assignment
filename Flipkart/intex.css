@@ -10,6 +10,7 @@ body {
     z-index: -1;
     margin: 0;
 }
+
 .center {
     display: flex;
     justify-content: center;
@@ -19,13 +20,14 @@ body {
     color: rgb(0, 0, 0);
     z-index: 1;
 }
-#card1{
+
+#card1 {
     z-index: 10;
     margin-top: -100px;
     margin-left: 30px;
 }
 
-#home{
+#home {
     margin-left: 100px;
 
 }
@@ -39,6 +41,7 @@ body {
 #bb {
     gap: 50px;
 }
+
 #bc {
     background-color: white;
 }
@@ -48,6 +51,7 @@ body {
     font-size: 25px;
     margin-left: 20px;
 }
+
 .why {
     width: 250px;
     padding-left: 40px;
@@ -91,26 +95,31 @@ body {
     border-radius: 20px;
     margin-left: 10px;
 }
-.fo{
+
+.fo {
     padding-top: 20px;
     display: flex;
     flex-direction: row;
 }
-#a{
+
+#a {
     margin-left: 20px;
 }
-#un{
+
+#un {
     position: relative;
     left: 300px;
     display: flex;
     flex-direction: row;
-    
+
 }
-.foo{
+
+.foo {
     background-color: rgb(71, 71, 71);
- color: white;
+    color: white;
 }
-#d{
+
+#d {
     padding-left: 20px;
     display: flex;
     flex-direction: row;
@@ -118,27 +127,51 @@ body {
     height: 40px;
     background-color: black;
 }
-.in:hover{
+
+.in:hover {
     color: aqua;
     position: relative;
     left: 10px;
-    
+
 }
-#g{
+
+#g {
     margin-bottom: 30px;
 }
+
 @media all and (max-width: 576px) {
-  .fo{
-    display: flex;
-    flex-direction: column;
-  }
-  #d{
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-  }
-  #un{
-    position: relative;
-    left: 0;
-  }
+    .fo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #d {
+        padding-left: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+
+    #un {
+        
+        position: relative;
+        left: -80px;
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    #a {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #of {
+        display: flex;
+        flex-direction: row;
+    }
 }
