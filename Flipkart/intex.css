@@ -57,7 +57,7 @@ body {
     padding-left: 40px;
 }
 
-#add {
+.add {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,13 +102,12 @@ body {
     flex-direction: row;
 }
 
-#a {
+.a {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 #un {
-    position: relative;
-    left: 300px;
     display: flex;
     flex-direction: row;
 
@@ -120,7 +119,9 @@ body {
 }
 
 #d {
+    justify-content: space-between;
     padding-left: 20px;
+    padding-right: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -165,7 +166,7 @@ body {
     }
 
 
-    #a {
+    .a {
         padding-top: 30px;
         padding-bottom: 30px;
     }
@@ -173,5 +174,13 @@ body {
     #of {
         display: flex;
         flex-direction: row;
+    }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+    #d{
+        height: 60px;
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
